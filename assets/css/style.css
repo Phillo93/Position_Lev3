@@ -1,0 +1,110 @@
+body{
+    margin:0;
+    background:#1f2024;
+}
+
+header{
+border-bottom: 2px solid #6e686e;
+height:70px;
+}
+
+header h1{
+    font-family:'Monoton';
+    color:#6e6864;
+    display:inline;
+    position:relative;
+    right:-30px
+}
+
+header h2{
+    font-family:'Ubuntu';
+    color:#6e6864;
+    display:inline;
+    position: relative;
+    right:-60px;
+}
+
+header a{
+    text-decoration: none;
+    display: inline;
+    color:#6e6864;
+    font-family: 'ubuntu';
+}
+
+li{
+    width:20px;
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+ul li:nth-of-type(1){
+    position: relative;
+    right: -700px;
+    top:-45px;
+}
+
+ul li:nth-of-type(2){
+    position: relative;
+    right: -800px;
+    top:-63px;
+}
+
+ul li:nth-of-type(3){
+    position: relative;
+    right: -965px;
+    top:-82px;
+}
+
+ul li:nth-of-type(4){
+    position: relative;
+    right: -1100px;
+    top:-99px;
+}
+
+section img{
+    height: 500px;
+    width: 250px;
+   position: relative;
+   right: -500px;
+   padding:20px;
+}
+
+section h1{
+    font-family: 'ubuntu';
+    font-size: 4em;
+    color: #6e6864;
+    position: relative;
+    left: 70px;
+    top: -450px;
+}
+
+section h2{
+    font-family: 'ubuntu';
+    font-size: 1.5em;
+    color: #ac8059;
+    position: relative;
+    left: 70px;
+    top: -500px;
+}
+
+article img:nth-of-type(1){
+    padding:10px;
+}
+
+article img:nth-of-type(2){
+    padding:10px;
+}
+
+article img:nth-of-type(3){
+    padding:10px;
+}
+
+article img{
+    position: relative;
+    bottom: 250px;
+    left: 50px;
+}
+
